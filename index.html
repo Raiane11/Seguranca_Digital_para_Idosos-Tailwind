@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segurança Digital para Idosos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+  class="min-h-screen bg-gradient-to-br from-[#0B0F1A] via-[#0F172A] to-[#020617]
+         flex items-center justify-center px-4"
+>
+
+  <main
+    class="bg-white/5 backdrop-blur-xl p-12 rounded-3xl
+           max-w-4xl w-full text-center shadow-2xl
+           border border-white/10"
+  >
+
+    <!-- título -->
+    <h1
+      class="text-4xl md:text-5xl font-bold
+             bg-gradient-to-r from-indigo-400 to-cyan-400
+             bg-clip-text text-transparent mb-4"
+    >
+      Segurança Digital para Idosos
+    </h1>
+
+    <p class="text-xl md:text-2xl text-slate-300 mb-12">
+      Aprenda a se defender contra golpes digitais.
+    </p>
+
+    <!-- botões -->
+    <div class="flex flex-col md:flex-row gap-6 justify-center mb-10">
+
+      <a id="dicasBtn"
+         class="bg-indigo-500/20 text-indigo-300 font-semibold py-6 px-8
+                rounded-xl text-lg border border-indigo-400/30
+                hover:bg-indigo-500/30 hover:scale-[1.02]
+                transition cursor-pointer">
+        Dicas de Segurança
+      </a>
+
+      <a id="alertasBtn"
+         class="bg-amber-400/20 text-amber-300 font-semibold py-6 px-8
+                rounded-xl text-lg border border-amber-300/30
+                hover:bg-amber-400/30 hover:scale-[1.02]
+                transition cursor-pointer">
+        Alertas de Golpes
+      </a>
+
+      <a href="https://g1.globo.com/fato-ou-fake/"
+         target="_blank"
+         class="bg-cyan-400/20 text-cyan-300 font-semibold py-6 px-8
+                rounded-xl text-lg border border-cyan-300/30
+                hover:bg-cyan-400/30 hover:scale-[1.02]
+                transition">
+        Fato ou Fake
+      </a>
+
+    </div>
+
+    <!-- cartilha -->
+    <a
+      href="https://previspa.rj.gov.br/wp-content/uploads/2024/11/20241113143525_7Q837WUT4HX_CARTILHA-DE-PROTECAO-DA-PESSOA-IDOSA.pdf"
+      target="_blank"
+      class="block bg-gradient-to-r from-indigo-500 to-cyan-500
+             text-slate-900 text-white font-bold py-6 rounded-2xl text-lg
+             hover:brightness-110 transition"
+    >
+      Cartilha de Proteção à Pessoa Idosa
+    </a>
+
+    <!-- a mensagem dinâmica -->
+    <p
+      id="mensagem"
+      class="mt-10 text-lg text-slate-200 font-medium min-h-[3rem]"
+    ></p>
+
+    <p class="text-sm text-slate-400 mt-10 text-center">
+      © 2026 Raiane Gomes - Projeto acadêmico desenvolvido para a Faculdade
+    </p>
+
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
