@@ -66,4 +66,4 @@ Esses temas foram estudados ao longo da disciplina e aplicados diretamente na co
 Criado por **Raiane Gomes**  
 Projeto acadêmico desenvolvido para fins educacionais.
 
-© Projeto para a faculdade — uso educacional.
+© Projeto para a faculdade - uso educacional.
